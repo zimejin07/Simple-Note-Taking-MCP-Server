@@ -1,4 +1,3 @@
-"""
 Simple Note-Taking MCP Server
 ==============================
 This is a complete, working MCP (Model Context Protocol) server that lets Claude
@@ -15,12 +14,11 @@ How it works:
 3. When you ask Claude to work with notes, it calls our tools
 4. We execute the action and return results to Claude
 
-"""
 # ==============================================================================
 # SETUP INSTRUCTIONS
 # ==============================================================================
-"""
-TO USE THIS MCP SERVER:
+
+# TO USE THIS MCP SERVER:
 
 1. Install the MCP Python SDK:
    pip install mcp
@@ -53,7 +51,7 @@ TO USE THIS MCP SERVER:
    - "Update my Shopping note to add bread"
    - "Delete my Shopping note"
 
-NOTES STORAGE:
+## NOTES STORAGE:
 - Your notes are saved to: ~/claude_notes.json
 - This is a simple JSON file you can also edit manually
 - Each note has a title (key) and content (value)
